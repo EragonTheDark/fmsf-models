@@ -1,0 +1,43 @@
+#MTT Model Inputs
+
+#Fuel Moisture Input (required)
+FUEL_MOISTURES_DATA: 1
+0 4 6 8 60 100
+
+#Wind Parameters Input (Required)
+WIND_SPEED: 8
+WIND_DIRECTION: -1
+DEFAULT_UPHILL_DOWNHILL_DIRECTION: 270
+SPREAD_DIRECTION_FROM_MAX: 0
+
+#Crown Parameter Inputs (Optional due to FMSF defaults)
+FOLIAR_MOISTURE_CONTENT: 100
+CROWN_FIRE_METHOD: ScottReinhardt
+
+#Simulation time (Required)
+MTT_SIM_TIME: 300
+
+#Interval for the MTT path output (Optional due to FSMF defaults)
+MTT_TRAVEL_PATH_INTERVAL: 300
+
+#Barrier (Optional due to FMSF defaults)
+MTT_FILL_BARRIERS: 0
+
+#Model outputs (Optional due to FMSF defaults)
+
+#MTT Specific Ouputs
+MTTARRIVALTIME:
+MTTSPREADRATE:
+MTTINTENSITY:
+NODEINFLUENCE:
+MTTFLAMELENGTH:
+MTTIGNITIONGRID:
+MTTMAJORPATHS:
+MTTFLOWPATHS:
+
+
+
+
+
+
+

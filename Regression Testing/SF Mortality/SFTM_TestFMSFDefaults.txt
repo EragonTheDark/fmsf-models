@@ -1,0 +1,10 @@
+#SpatialFOFEM Tree Mortality Model Inputs 
+
+#Flame Length Inputs
+FOFEM_Flame_Length: 4.123456
+
+#Species and Diameter Range Inputs
+FOFEM_Mortality_Species: 3
+PIBA2
+PIRE
+PIST

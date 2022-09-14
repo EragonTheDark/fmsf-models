@@ -1,0 +1,18 @@
+#Basic Model Inputs
+#Fuel Moisture Input (required)
+FUEL_MOISTURES_DATA: 1
+0 3 4 5 30 60
+
+#Wind Parameters Input (Required)
+WIND_SPEED: 8
+WIND_DIRECTION: -1
+DEFAULT_UPHILL_DOWNHILL_DIRECTION: 0
+SPREAD_DIRECTION_FROM_MAX: 0
+
+#Crown Parameter Inputs (Required)
+FOLIAR_MOISTURE_CONTENT: 100
+CROWN_FIRE_METHOD: ScottReinhardt
+
+#List of model outputs
+#None listed, testing the FMSF Defaults
+

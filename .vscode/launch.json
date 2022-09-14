@@ -1,0 +1,82 @@
+{
+  // Use IntelliSense to learn about possible attributes.
+  // Hover to view descriptions of existing attributes.
+  // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch Current File",
+      "request": "launch",
+      "mainClass": "${file}"
+    },
+    {
+      "type": "java",
+      "name": "Launch JFarsiteTest",
+      "request": "launch",
+      "mainClass": "jfarsite.JFarsiteTest",
+      "projectName": "model-test"
+    },
+    {
+      "type": "java",
+      "name": "Launch JFlamMapTest",
+      "request": "launch",
+      "mainClass": "jflammap.JFlamMapTest",
+      "projectName": "model-test",
+      "args": "\"C:\\Users\\Administrator\\Documents\\Regression Testing\\!Landscapes\\j222b1afde57c42ccb3c71cfdb5d330f6\\j222b1afde57c42ccb3c71cfdb5d330f6.tif\" \"C:\\Users\\Administrator\\Documents\\Regression Testing\\Basic\\Basic_AllInputs_AllOuputs.txt\" \"C:\\Users\\Administrator\\Documents\\outputs\\outputs\"",
+      "env": {
+        "Path": "${workspaceFolder}\\dll\\bin;${env:Path}",
+        "GDAL_DATA": "${workspaceFolder}\\dll\\bin\\gdal-data",
+        "PROJ_LIB": "${workspaceFolder}\\dll\\bin\\proj7\\share"
+      }
+    },
+    {
+      "type": "java",
+      "name": "Launch JFSProTest",
+      "request": "launch",
+      "mainClass": "jfspro.JFSProTest",
+      "projectName": "model-test"
+    },
+    {
+      "type": "java",
+      "name": "Launch JMinTravelTimeTest",
+      "request": "launch",
+      "mainClass": "jmintraveltime.JMinTravelTimeTest",
+      "projectName": "model-test"
+    },
+    {
+      "type": "java",
+      "name": "Launch JRandigTest",
+      "request": "launch",
+      "mainClass": "jrandig.JRandigTest",
+      "projectName": "model-test"
+    },
+    {
+      "type": "java",
+      "name": "Launch JSpatialFOFEMTest",
+      "request": "launch",
+      "mainClass": "jspatialfofem.JSpatialFOFEMTest",
+      "projectName": "model-test"
+    },
+    {
+      "type": "java",
+      "name": "Launch JTreeListClipTest",
+      "request": "launch",
+      "mainClass": "jtreelistclip.JTreeListClipTest",
+      "projectName": "model-test"
+    },
+    {
+      "type": "java",
+      "name": "Launch ModelTest",
+      "request": "launch",
+      "mainClass": "modelTest.ModelTest",
+      "projectName": "model-test",
+      "args": "\"C:\\Users\\RGoolsby\\ModelTesting\\Regression Testing\\Regression Testing\\!Landscapes\\j222b1afde57c42ccb3c71cfdb5d330f6.zip\" \"C:\\Users\\RGoolsby\\ModelTesting\\Regression Testing\\Regression Testing\\Basic\\Basic_AllInputs_AllOuputs.txt\" \"C:\\Users\\RGoolsby\\ModelTesting\\outputs\"",
+      "env": {
+        "Path": "${workspaceFolder}\\dll\\bin;${env:Path}",
+        "GDAL_DATA": "${workspaceFolder}\\dll\\bin\\gdal-data",
+        "PROJ_LIB": "${workspaceFolder}\\dll\\bin\\proj7\\share"
+      }
+    }
+  ]
+}

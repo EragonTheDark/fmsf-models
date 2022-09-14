@@ -1,0 +1,40 @@
+#Randig Model Inputs
+
+#Fuel Moisture Input (Required)
+FUEL_MOISTURES_DATA: 1
+0 3 4 6 45 73
+
+#Wind Parameters Input (Required)
+WIND_SPEED: 17.0
+WIND_DIRECTION: -1
+DEFAULT_UPHILL_DOWNHILL_DIRECTION: 315
+SPREAD_DIRECTION_FROM_MAX: 0
+GRIDDED_WINDS_GENERATE: No
+
+#Crown Parameter Inputs (Optional due to FMSF defaults)
+FOLIAR_MOISTURE_CONTENT: 100
+CROWN_FIRE_METHOD: Finney
+
+#Ignition locations (Required)
+NUMFIRES: 50
+
+#Simulation duration per fire (Optional due to FMSF defaults)
+DURATION: 1440
+
+#Run resolution (Required)
+RESOLUTION: 30
+
+#Model outputs (Optional due to FMSF defaults)
+
+#Randig Specific Ouputs
+RANDIG_BURN_PROBABILITY
+RANDIG_FLP_CLASS_0_2
+RANDIG_FLP_CLASS_2_4
+RANDIG_FLP_CLASS_4_6
+RANDIG_FLP_CLASS_6_8
+RANDIG_FLP_CLASS_8_12
+RANDIG_FLP_CLASS_12
+RANDIG_CONDITIONAL_FLAMELENGTH
+RANDIGFIRESIZELIST
+RANDIGPERIMETERS
+RANDIGEMBERS

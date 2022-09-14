@@ -1,0 +1,43 @@
+#MTT Model Inputs
+
+#Fuel Moisture Input (Required)
+FUEL_MOISTURES_DATA: 1
+0 3 4 6 45 73
+
+#Wind Parameters Input (Required)
+WIND_SPEED: 10.0
+WIND_DIRECTION: 0.0
+SPREAD_DIRECTION_FROM_MAX: 0
+GRIDDED_WINDS_GENERATE: No
+
+#Crown Parameter Inputs (Optional due to FMSF defaults)
+FOLIAR_MOISTURE_CONTENT: 100
+CROWN_FIRE_METHOD: ScottReinhardt
+
+#Spotting (Optional due to FMSF defaults)
+MTT_SPOT_PROBABILITY: 0.05
+MTT_SPOT_DELAY: 20
+SPOTTING_SEED: 98713
+
+#Simulation time (Required)
+MTT_SIM_TIME: 60
+
+#Interval for the MTT path output (Optional due to FSMF defaults)
+MTT_TRAVEL_PATH_INTERVAL: 200
+
+#Model outputs (Optional due to FMSF defaults)
+
+#MTT Specific Ouputs
+MTTARRIVALTIME:
+MTTSPREADRATE:
+MTTFLAMELENGTH:
+MTTIGNITIONGRID:
+MTTMAJORPATHS:
+MTTEMBERS:
+
+
+
+
+
+
+

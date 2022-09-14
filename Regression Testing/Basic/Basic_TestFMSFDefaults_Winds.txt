@@ -1,0 +1,9 @@
+#Basic Model Inputs
+
+#Fuel Moisture Input (required)
+FUEL_MOISTURES_DATA: 1
+0 4 5 6 30 60
+
+#Wind Parameters Input (required)
+WIND_SPEED: 8
+WIND_DIRECTION: 90

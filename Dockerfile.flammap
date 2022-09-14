@@ -1,0 +1,21 @@
+FROM mcr.microsoft.com/windows/servercore:ltsc2022 
+
+WORKDIR "C:\Users\Administrator\Downloads"
+COPY OpenJDK17U-jdk_x64_windows_hotspot_17.0.4.1_1.msi java.msi
+RUN msiexec /i java.msi ADDLOCAL=FeatureMain,FeatureEnvironment,FeatureJarFileRunWith,FeatureJavaHome,FeatureOracleJavaSoft INSTALLDIR="c:\Program Files\Temurin\" /quiet
+
+
+WORKDIR "C:\Users\Administrator\Documents"
+COPY dll dll
+COPY src src 
+RUN setx path "%PATH%;C:\Users\Administrator\Documents\dll\bin"
+ENV GDAL_DATA="C:\Users\Administrator\Documents\dll\bin\gdal-data"
+ENV PROJ_LIB="C:\Users\Administrator\Documents\dll\bin\proj7\share"
+
+# WORKDIR "C:\Users\Administrator\Documents\src\main\java\modelTest"
+# RUN javac -d . ModelTest.java
+# CMD java -cp . modelTest.ModelTest "C:\Users\Administrator\Documents\landscape\j222b1afde57c42ccb3c71cfdb5d330f6.tif" "C:\Users\Administrator\Documents\input\Basic_AllInputs_AllOuputs.txt" "C:\Users\Administrator\Documents\output"
+
+WORKDIR "C:\Users\Administrator\Documents\src\main\java\jflammap"
+RUN javac -d . *.java
+CMD java -cp . jflammap.JFlamMapTest "C:\Users\Administrator\Documents\landscape\j222b1afde57c42ccb3c71cfdb5d330f6.tif" "C:\Users\Administrator\Documents\input\Basic_AllInputs_AllOuputs.txt" "C:\Users\Administrator\Documents\output\output"

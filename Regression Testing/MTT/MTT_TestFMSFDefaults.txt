@@ -1,0 +1,13 @@
+#MTT Model Inputs
+
+#Fuel Moisture Input (Required)
+FUEL_MOISTURES_DATA: 1
+0 3 4 6 45 73
+
+#Wind Parameters Input (Required)
+#The FMSF Defaults for these will result in a failure so I am including them for now
+WIND_SPEED: 17.0
+WIND_DIRECTION: 315.0
+
+#Simulation time (Required)
+MTT_SIM_TIME: 900

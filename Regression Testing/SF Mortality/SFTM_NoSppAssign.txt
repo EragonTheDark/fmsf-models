@@ -1,0 +1,21 @@
+#SpatialFOFEM Tree Mortality Model Inputs
+
+#Band number in the Input GeoTiff
+FOFEM_TreeListID_Layer_Number: 1
+#FOFEM_Flame_Length_Layer_Number: 2
+
+#Flame Length Inputs
+FOFEM_Flame_Length: 4
+FOFEM_Flame_Length_Precision: 2
+
+FOFEM_Mortality_Species: 5
+ABCO
+ABMA
+PIJE
+PIPO
+PICO
+
+FOFEM_Mortality_Size_Classes: 3
+1
+6
+12

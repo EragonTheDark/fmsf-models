@@ -1,0 +1,16 @@
+#Randig Model Inputs
+
+#Fuel Moisture Input (Required)
+FUEL_MOISTURES_DATA: 1
+0 4 5 6 30 60
+
+#Wind Parameters Input (Required)
+WIND_SPEED: 15
+WIND_DIRECTION: 220
+
+#Ignition locations (Required)
+NUMFIRES: 1000
+
+#Run resolution (Required)
+RESOLUTION: 30
+
