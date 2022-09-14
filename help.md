@@ -5,6 +5,6 @@ https://github.com/adoptium/temurin17-binaries/releases/download/jdk-17.0.4.1+1/
 
 https://stackoverflow.com/a/44785784
 
-docker build -f Dockerfile.flammap -t flammap .
+docker build -f Dockerfile.flammap -t flammap:v2 .
 
-docker run --rm -v C:\Users\Administrator\Documents\model-test\landscape\j222b1afde57c42ccb3c71cfdb5d330f6:C:\Users\Administrator\Documents\landscape -v C:\Users\Administrator\Documents\model-test\input:C:\Users\Administrator\Documents\input -v C:\Users\Administrator\Documents\model-test\output:C:\Users\Administrator\Documents\output flammap:latest
+docker run --rm -v C:\Users\Administrator\Documents\fmsf-models\landscape\j222b1afde57c42ccb3c71cfdb5d330f6:C:\Users\Administrator\Documents\landscape -v C:\Users\Administrator\Documents\fmsf-models\input:C:\Users\Administrator\Documents\input -v C:\Users\Administrator\Documents\fmsf-models\output:C:\Users\Administrator\Documents\output flammap:v2
